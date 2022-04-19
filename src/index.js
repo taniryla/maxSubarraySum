@@ -66,7 +66,6 @@ function maxSubarraySum(arr, n) {
       console.log(nSum);
     }
     i++;
-    j++;
   }
   return maxSum;
 }
