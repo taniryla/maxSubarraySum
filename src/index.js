@@ -56,7 +56,7 @@ console.log(maxSubarraySum([1,2,5,2,8,1,5]), 4);
 function maxSubarraySum(arr, n){
   let i = 0;
   // iterate through the arr with a for loop
-  for (let j = 0; j < arr.length; j++){
+  for (let j = i + n - 1; j < arr.length; j++){
     // create a variable maxSum and add n elements in the array
     // starting at i
     // if the sum of n elements is greater than max sum
